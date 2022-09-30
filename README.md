@@ -1,5 +1,8 @@
-# **Northwestern County House Sales Analysis** ([Femi Kamau](https://www.github.com/ctrl-Karugu))   
+# **King County House Sales Analysis** ([Femi Kamau](https://www.github.com/ctrl-Karugu))   
 
+> This project is a part of the [Data Science (DSF-FT) Course](https://moringaschool.com/courses/data-science-course/) at [Moringa School](https://moringaschool.com/). The full project description can be found [here](https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-3).
+
+---
 ---
 
 ## Overview
