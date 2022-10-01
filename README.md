@@ -195,6 +195,9 @@ Though our model did show a significant increase in the accuracy of the model, t
 
 - The data in the dataset is from 2014 and 2015. Therefore, it may not be able to account for changes in the housing market since then. As a result the model may not be able to predict the value of a house in 2022. 
 
+- In order to improve the value of a house, we would need to understand the market (i.e. what buyers are looking for). Therefore, by not having this information, we are unable to advise our clients on the best renovations to make. It is possible to build the most expensive house in the world, but if it is not what buyers are looking for, then it will not be sold. There is no value in that.
+
+- By using a correlation threshold of 0.6, we may have ignored dropping some freatures with a high correlation. This may have led to multicollinearity in the model. As a result, the model may not be able to predict the value of a house accurately.
 ---
 
 Project Organization
@@ -206,7 +209,7 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    ├── notebooks          <- Jupyter notebook
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
